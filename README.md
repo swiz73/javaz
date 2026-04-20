@@ -342,3 +342,100 @@ public class time2 {
 <img width="378" height="213" alt="image" src="https://github.com/user-attachments/assets/c76f0d2f-12a2-4776-a93e-b35754527d38" />
 
 ```
+import java.util.Scanner;
+
+class ArrayOperation {
+    int a[] = new int[5];
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter 5 elements:");
+
+        for(int i = 0; i < 5; i++) {
+            a[i] = sc.nextInt();
+        }
+    }
+
+    void out1() {
+        System.out.println("Original Array:");
+
+        for(int i = 0; i < 5; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        System.out.println();
+    }
+
+    void reverse() {
+        for(int i = 0; i < 5 / 2; i++) {
+            int temp = a[i];
+            a[i] = a[4 - i];
+            a[4 - i] = temp;
+        }
+    }
+
+    void out2() {
+        System.out.println("Reversed Array:");
+
+        for(int i = 0; i < 5; i++) {
+            System.out.print(a[i] + " ");
+        }
+
+        System.out.println();
+    }
+}
+
+public class array {
+    public static void main(String[] args) {
+
+        ArrayOperation obj = new ArrayOperation();
+
+        obj.input();
+        obj.out1();
+        obj.reverse();
+        obj.out2();
+    }
+}
+```
+<img width="415" height="221" alt="image" src="https://github.com/user-attachments/assets/4f43dbac-7f42-4c64-af5c-436f620bb243" />
+
+```
+import java.util.Scanner;
+
+class MatrixOperation {
+    int a[][] = new int[3][3];
+    int b[][] = new int[3][3];
+    int c[][] = new int[3][3];
+
+    void input() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter elements of First Matrix:");
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
+                a[i][j] = sc.nextInt();
+            }
+        }
+
+        System.out.println("Enter elements of Second Matrix:");
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
+                b[i][j] = sc.nextInt();
+            }
+        }
+    }
+
+    void addition() {
+        System.out.println("Addition of Matrices:");
+
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
+                c[i][j] = a[i][j] + b[i][j];
+                System.out.print(c[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+```
+<img width="498" height="670" alt="image" src="https://github.com/user-attachments/assets/9cc8bbcd-8a30-4577-923b-29fc85e01fea" />
