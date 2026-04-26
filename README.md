@@ -1,11 +1,54 @@
 # javaz
 
-[program-1 wap to print and input int](#p-1)
 
-[program-1 add and mul using onjects and claases](#prog1)
-## p-1
+[program-1 add and mul using onjects and claases](#prog1)   
+[program-2 Write a class for addition of two distance where each distance is given in m,cm,mm.](#prog2)  
+[program-3 Similarly, test the result by creation of object in main class where each distance is given 
+in m,cm.](#prog3)  
+[program-4 Similarly for time given in hours, min and seconds.](#prog4)  
+[program-5 Time given in hours and minutes.](#prog5)   
+[program-6 Collect the code from internet for any five programs of c language. (Fact, armstrong, palindrome, Fibonacci, pattern).](#prog6)   
+[program-7 Write a class that is having four method for 1-dimensional array. (Input, output 1,out2, reverse).](#prog7) 
+[program-8 write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#prog8)  
+[program-9 Write a program using three classes to print 1-100 ,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.](#prog9)  
+[program-10 Using the concept of multithreading the output of all three threads must be synchronised (use join method).](#prog10)   
+[program-11 Addition of 2 numbers using swing.](#prog11)   
+[program-12 Make a registration form with 10 elements and send the data into database (use jdbc connectivity)](#prog12)  
+[program-13 Make one calculator in swing.](#prog13)   
+[program-14 Matrix Addition using swing class.](#prog14)   
+[program-15 Create one jframe apply 10 buttons on that after clicking on each button a new 
+structure is created.(Circle, oval rectangle, etc ....)](#prog15)   
+[program-16 Just using mouse Event create a frame like paint brush with selection of colour and width .](#prog16)   
+[program-17 Create a package of any 5 classes of your choice and import it.](#prog17)    
+[program-18 Create one package and sub package  import and test it .](#prog18)   
+[program-19 Create one small array of size 5 apply array out of bounds exception using try catch give a proper message in catch and demonstrate the exception exactly in the same fashion demonstrate arithmetic exception .](#prog19)    
+[program-20 To test the range of age of one student.write a program using user defined exception.](#prog20)   
+[program-21 File Handling Programs (given in the PPT)](#prog21)    
+[program-22 Inheritance Programs, using interface and abstract classes.](#prog22)   
 
 ## prog1
+## prog2 
+## prog3 
+## prog4
+## prog5
+## prog6 
+## prog7
+## prog8
+## prog9 
+## prog10 
+## prog11
+## prog12
+## prog13
+## prog14
+## prog15
+## prog16
+## prog17
+## prog18 
+## prog19
+## prog20
+## prog21
+## prog22 
+
 ```
 
 import java.util.Scanner;
