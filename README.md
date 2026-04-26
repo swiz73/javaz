@@ -47,7 +47,7 @@ structure is created.(Circle, oval rectangle, etc ....)](#prog15)
 ## prog19
 ## prog20
 ## prog21
-## prog22 
+
 
 ```
 
@@ -1647,6 +1647,7 @@ public class AgeTest
 ```
 <img width="397" height="122" alt="image" src="https://github.com/user-attachments/assets/7e0f940a-61e2-458e-871f-2f44384d8b5b" />
 
+## prog21
 ```
 import java.io.*;
 
@@ -1719,6 +1720,7 @@ public class FileCopy
     }
 }
 ```
+## prog22
 ```
 class Person
 {
