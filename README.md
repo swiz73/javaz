@@ -4,11 +4,11 @@
 [program-1 add and mul using onjects and claases](#prog1)   
 [program-2 Write a class for addition of two distance where each distance is given in m,cm,mm.](#prog2)  
 [program-3 Similarly, test the result by creation of object in main class where each distance is given 
-in m,cm.](#prog3)  
+in m,cm.](#prog3)    
 [program-4 Similarly for time given in hours, min and seconds.](#prog4)  
 [program-5 Time given in hours and minutes.](#prog5)   
 [program-6 Collect the code from internet for any five programs of c language. (Fact, armstrong, palindrome, Fibonacci, pattern).](#prog6)   
-[program-7 Write a class that is having four method for 1-dimensional array. (Input, output 1,out2, reverse).](#prog7) 
+[program-7 Write a class that is having four method for 1-dimensional array. (Input, output 1,out2, reverse).](#prog7)  
 [program-8 write a class with multiple methods to perform matrix operations (transpose, addition, sum of rows, sum of columns, sum of diagonal).](#prog8)  
 [program-9 Write a program using three classes to print 1-100 ,1-100,1-100 with and without thread and analyse the output and repeat the same program using runnable interface.](#prog9)  
 [program-10 Using the concept of multithreading the output of all three threads must be synchronised (use join method).](#prog10)   
