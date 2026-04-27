@@ -1,4 +1,4 @@
-# javaz Swasti(240106)
+# javazSwasti(240106)
 
 
 [program-1 add and mul using onjects and claases](#prog1)   
