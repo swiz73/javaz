@@ -27,114 +27,6 @@ structure is created.(Circle, oval rectangle, etc ....)](#prog15)
 [program-22 Inheritance Programs, using interface and abstract classes.](#prog22)   
 
 ## prog1
-## prog2 
-## prog3 
-## prog4
-## prog5
-## prog6 
-## prog7
-## prog8
-## prog9 
-## prog10 
-## prog11
-## prog12
-## prog13
-## prog14
-## prog15
-## prog16
-## prog17
-## prog18 
-## prog19
-## prog20
-## prog21
-
-
-```
-
-import java.util.Scanner;
-
-public class lalala {
-
-   
-    public static void main(String[] args) {
-        dumb d1=new dumb();
-        dumb d2=new dumb();
-        d1.input();
-        d1.proc();
-        d1.output();
-        System.out.println("Jashika");      // TODO code application logic here
-    }
-    
-}
-class dumb{
-    int a;
-    int b;
-    void input(){
-    Scanner sc=new Scanner(System.in);
-    System.out.print("Entr");
-    a=sc.nextInt();
-    
-}
-     void proc(){
-     a=a*2;
-     }
-void output(){
-System.out.println("a="+a);
-}    
-}
-```
-
-<img width="518" height="127" alt="image" src="https://github.com/user-attachments/assets/09e4160a-b65b-460d-9258-0f284cc69db9" />
-
-
-```
-
-import java.util.Scanner;
-
-public class zeee {
-    public static void main(String[] args) {
-        abs a1=new abs();
-        abs a2=new abs();
-        abs a3=new abs();
-        a1.input();
-        a2.input();
-        a3.add(a1,a2);
-        a3.output();
-}
-}
-class abs{
-int m;
-int cm;
-int mm;
-void input(){
-    Scanner sc=new Scanner(System.in);
-    System.out.print("Entr");
-    m=sc.nextInt();
-    cm=sc.nextInt();
-    mm=sc.nextInt();
-      }
-void output(){
-  System.out.print("m="+m);
-  System.out.print("cm="+cm);
-  System.out.print("mm="+mm);
-}
-void add(abs a1, abs a2){
-    m=a1.m+a2.m;
-    cm=a1.cm+a2.cm;
-    mm=a1.mm+a2.mm;
-    if(mm>=10){
-        cm+=1;
-        mm-=10;
-    }
-    if(cm>=100){
-        m+=1;
-        cm-=100;
-    }
-    
-}
-}
-```
-<img width="433" height="155" alt="image" src="https://github.com/user-attachments/assets/f526eb26-3ad9-48ab-a379-654b69be0a1d" />
 
 ```
 import java.util.Scanner;
@@ -181,6 +73,7 @@ public class calculator  {
 ```
 <img width="399" height="196" alt="image" src="https://github.com/user-attachments/assets/13bd6b82-55fd-4978-bd28-dc369190398d" />
 
+## prog2
 ```
 import java.util.Scanner;
 
@@ -235,6 +128,7 @@ public class distance {
 ```
 <img width="415" height="232" alt="image" src="https://github.com/user-attachments/assets/f0663804-05e8-4003-95a3-5fb81568720a" />
 
+## prog3
 ```
 import java.util.Scanner;
 
@@ -283,6 +177,7 @@ public class distance2 {
 ```
 <img width="408" height="234" alt="image" src="https://github.com/user-attachments/assets/a72329bb-0b37-489c-8c9d-23416903cddf" />
 
+## prog4
 ```
 import java.util.Scanner;
 
@@ -337,6 +232,7 @@ public class time {
 ```
 <img width="399" height="246" alt="image" src="https://github.com/user-attachments/assets/8df2f3ec-5fa8-406b-91d0-eed2adc27d25" />
 
+## prog5
 ```
 import java.util.Scanner;
 
@@ -385,6 +281,7 @@ public class time2 {
 ```
 <img width="378" height="213" alt="image" src="https://github.com/user-attachments/assets/c76f0d2f-12a2-4776-a93e-b35754527d38" />
 
+## prog6
 ```
 import java.util.Scanner;
 
@@ -546,6 +443,7 @@ class StarPattern {
 
 <img width="383" height="205" alt="image" src="https://github.com/user-attachments/assets/df307d03-5213-4dfb-bbf1-0f8c75cdecbe" />
 
+## prog7
 ```
 import java.util.Scanner;
 
@@ -605,6 +503,7 @@ public class array {
 ```
 <img width="415" height="221" alt="image" src="https://github.com/user-attachments/assets/4f43dbac-7f42-4c64-af5c-436f620bb243" />
 
+## prog8
 ```
 import java.util.Scanner;
 
@@ -706,6 +605,7 @@ public class matrix {
 ```
 <img width="498" height="670" alt="image" src="https://github.com/user-attachments/assets/9cc8bbcd-8a30-4577-923b-29fc85e01fea" />
 
+## prog9
 ```
 class A extends Thread {
     public void run() {
@@ -814,6 +714,7 @@ public class RunnableWithout {
 ```
 <img width="384" height="429" alt="image" src="https://github.com/user-attachments/assets/3d31c30d-b247-4736-a6ef-2959f992556c" />
 
+## prog10
 ```
 class A extends Thread {
     public void run() {
@@ -858,6 +759,7 @@ class C extends Thread {
 ```
 <img width="388" height="435" alt="image" src="https://github.com/user-attachments/assets/703e0ab4-f963-42ef-a94e-8504947e6f67" />
 
+## prog11
 ```
 import javax.swing.*;
 import java.awt.event.*;
@@ -927,6 +829,7 @@ public class AdditionSwing extends JFrame implements ActionListener
 ```
 <img width="453" height="347" alt="image" src="https://github.com/user-attachments/assets/9995557c-474c-403d-99d6-9bc053910e5c" />
 
+## prog12
 ```
 import javax.swing.*;
 import java.awt.event.*;
@@ -1098,6 +1001,7 @@ public class RegistrationForm extends JFrame implements ActionListener
 ```
 <img width="448" height="544" alt="image" src="https://github.com/user-attachments/assets/c0da465c-e398-4dc9-b8fe-3ab309cf6a08" />
 
+## prog13
 ```
 import javax.swing.*;
 import java.awt.event.*;
@@ -1183,6 +1087,7 @@ public class CalculatorSwing extends JFrame implements ActionListener
 ```
 <img width="447" height="346" alt="image" src="https://github.com/user-attachments/assets/7500c117-6e9b-4616-b2a6-bd1a9c5548fc" />
 
+## prog14
 ```
 import javax.swing.*;
 import java.awt.event.*;
@@ -1269,6 +1174,7 @@ public class MatrixAddition extends JFrame implements ActionListener
 ```
 <img width="422" height="294" alt="image" src="https://github.com/user-attachments/assets/2742cf2f-039f-40c5-836c-156ef67974f0" />
 
+## prog15
 ```
 import javax.swing.*;
 import java.awt.*;
@@ -1398,6 +1304,7 @@ public class Shape
 <img width="579" height="295" alt="image" src="https://github.com/user-attachments/assets/38b45947-0160-4298-a101-02809b7f2a9a" />
 <img width="560" height="293" alt="image" src="https://github.com/user-attachments/assets/1eacff76-3ee2-4688-ab98-270081393f4f" />
 
+## prog16
 ```
 import javax.swing.*;
 import java.awt.*;
@@ -1473,6 +1380,7 @@ public class Paint
 ```
 <img width="644" height="445" alt="image" src="https://github.com/user-attachments/assets/12d45576-0b11-44bc-9d57-dacb786f3713" />
 
+## prog17
 ```
 package mypack;
 
@@ -1536,6 +1444,7 @@ public class Package
 ```
 <img width="357" height="158" alt="image" src="https://github.com/user-attachments/assets/e2095256-a9fa-48c5-b1e9-e8a94998d848" />
 
+## prog18
 ```
 package animals.pet;
 
@@ -1572,6 +1481,7 @@ public class test
 ```
 <img width="368" height="125" alt="image" src="https://github.com/user-attachments/assets/71300101-8ad6-41e0-88eb-355f473e440f" />
 
+## prog19
 ```
 public class Exception
 {
@@ -1605,6 +1515,7 @@ public class Exception
 ```
 <img width="376" height="128" alt="image" src="https://github.com/user-attachments/assets/49814296-718a-4f96-acd8-a9cf93d65a5c" />
 
+## prog20
 ```
 import java.util.Scanner;
 
